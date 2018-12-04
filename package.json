@@ -5,12 +5,12 @@
   "author": "Gui Santos <guilherme.goncalvessantos@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "gatsby": "^2.0.53",
