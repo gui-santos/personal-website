@@ -29,4 +29,6 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
   ],
+  // necessary to deploy to GitHub Pages
+  pathPrefix: "/personal-website",
 }
