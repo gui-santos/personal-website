@@ -12,7 +12,7 @@ const IndexPage = () => (
     </p>
     <p>Currently based in Berlin</p>
     <br />
-    <p>project under devlopment :sweat_smile:</p>
+    <p>project under devlopment 😅</p>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
