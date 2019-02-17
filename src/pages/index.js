@@ -12,7 +12,12 @@ const IndexPage = () => (
     </p>
     <p>Currently based in Berlin</p>
     <br />
-    <p>project under devlopment 😅</p>
+    <p>
+      project under devlopment{' '}
+      <span role="img" aria-label="smile with sweat drop">
+        😅
+      </span>
+    </p>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

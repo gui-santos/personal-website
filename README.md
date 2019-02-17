@@ -1,18 +1,20 @@
 ## My personal website (v2019)
 
-## 🚀 Instructions
+## 🖥 Running locally
 
-1.  **Start developing.**
+Navigate into the right directory and run:
 
-    Navigate into the right directory and run:
+```sh
+# with npm
+npm run dev
 
-    ```sh
-    gatsby develop
-    ```
-    
-    Your site is now running at `http://localhost:8000`!
-    
-## 🧐 What's inside?
+# ... or with yarn
+yarn dev
+```
+
+Then the site will be running at http://localhost:8000
+
+## 🤔 What's inside?
 
 - Gatsby
 - Prettier
