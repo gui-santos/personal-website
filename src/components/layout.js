@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
+import './global.css'
 import favicon from '../images/favicon.ico'
-import './layout.css'
 
 const Page = styled.div`
   max-width: 1200px;
@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
             {
               rel: 'stylesheet',
               href:
-                'https://fonts.googleapis.com/css?family=Roboto+Mono:300,s700&display=swap',
+                'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700&display=swap',
             },
           ]}
         >

@@ -10,8 +10,13 @@ html * {
 body {
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
+  font-weight: 300;
   margin: 0;
 
   background: #0b0b0b;
   color: #fff;
+}
+
+h1 {
+  font-weight: 300;
 }
