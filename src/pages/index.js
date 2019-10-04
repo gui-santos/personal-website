@@ -1,24 +1,33 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import styled from 'styled-components'
 
 import Layout from '../components/layout'
 
+const About = styled.div`
+  height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+`
+
+const Title = styled.h1`
+  margin-top: 0;
+`
+
+const Paragraph = styled.p`
+  font-size: 2rem;
+  margin: 0;
+`
+
 const IndexPage = () => (
   <Layout>
-    <h1>Hello!</h1>
-    <p>
-      I’m Guilherme Santos, a designer and technology enthusiast, passionate to
-      build great experiences.
-    </p>
-    <p>Currently based in Berlin</p>
-    <br />
-    <p>
-      project under devlopment{' '}
-      <span role="img" aria-label="smile with sweat drop">
-        😅
-      </span>
-    </p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <About>
+      <Title>Hello,</Title>
+      <Paragraph>
+        I'm Gui Santos, a developer focused in the web and a design enthusiast
+      </Paragraph>
+      <Paragraph>currently living in Berlin.</Paragraph>
+    </About>
   </Layout>
 )
 
