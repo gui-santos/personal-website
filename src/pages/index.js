@@ -53,6 +53,21 @@ const TextSmall = styled.p`
   }
 `
 
+const Link = styled.a`
+  font-size: 0.8rem;
+  color: #c90099;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+
+  :hover {
+    color: #ff05c3;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 1rem;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <About>
@@ -70,6 +85,10 @@ const IndexPage = () => (
       <FadeIn delay={600}>
         <TextSmall>Currently living in Berlin.</TextSmall>
       </FadeIn>
+
+      <Link href="https://www.linkedin.com/in/guigsantos/" target="_blank">
+        LinkedIn
+      </Link>
     </About>
   </Layout>
 )
