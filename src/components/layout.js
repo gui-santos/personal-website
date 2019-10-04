@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
             {
               rel: 'stylesheet',
               href:
-                'https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap',
+                'https://fonts.googleapis.com/css?family=Roboto+Mono:300,s700&display=swap',
             },
           ]}
         >
