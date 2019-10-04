@@ -1,4 +1,4 @@
-## My personal website (v2019)
+# My personal website (v2019)
 
 ## 🖥 Running locally
 
