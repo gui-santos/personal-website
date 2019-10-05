@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { FadeIn } from '../components/styled/animations'
+import { FadeIn, ShiftUp } from '../components/styled/animations'
 import { Title, TextBig, TextSmall } from '../components/styled/text'
 import Layout from '../components/Layout'
 import Link from '../components/Link'
@@ -19,31 +19,36 @@ const Container = styled.div`
   }
 `
 
+const FadeAndShift = ({ delay = 0, children }) => (
+  <ShiftUp delay={delay}>
+    <FadeIn delay={delay}>{children}</FadeIn>
+  </ShiftUp>
+)
+
 function IndexPage() {
   return (
     <Layout>
       <Container>
-        <FadeIn>
+        <FadeAndShift>
           <Title>Hello,</Title>
-        </FadeIn>
+        </FadeAndShift>
 
-        <FadeIn delay={200}>
+        <FadeAndShift delay={200}>
           <TextBig>
             I'm Gui Santos, a developer with a passion for design working with
             the web.
-            {/* as a profession and with art as a passion. */}
           </TextBig>
-        </FadeIn>
+        </FadeAndShift>
 
-        <FadeIn delay={600}>
+        <FadeAndShift delay={400}>
           <TextSmall>Currently living in Berlin.</TextSmall>
-        </FadeIn>
+        </FadeAndShift>
 
-        <FadeIn delay={1000}>
+        <FadeAndShift delay={600}>
           <Link href="https://www.linkedin.com/in/guigsantos/" target="_blank">
-            LinkedIn
+            &#8599; LinkedIn
           </Link>
-        </FadeIn>
+        </FadeAndShift>
       </Container>
     </Layout>
   )
