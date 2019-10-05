@@ -45,7 +45,10 @@ function IndexPage() {
         </FadeAndShift>
 
         <FadeAndShift delay={600}>
-          <Link href="https://www.linkedin.com/in/guigsantos/" target="_blank">
+          <Link
+            href="https://www.linkedin.com/in/guigsantos/?locale=en_US"
+            target="_blank"
+          >
             &#8599; LinkedIn
           </Link>
         </FadeAndShift>
