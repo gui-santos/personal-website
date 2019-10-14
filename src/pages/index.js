@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Link from '../components/Link'
 
 const Container = styled.div`
+  position: relative;
   height: calc(100vh - 2rem);
   max-width: 700px;
   display: flex;
@@ -35,8 +36,8 @@ function IndexPage() {
 
         <FadeAndShift delay={200}>
           <TextBig>
-            I'm Gui Santos, a developer with a passion for design working with
-            the web.
+            I'm Gui Santos, a developer with a passion for design helping to
+            create great interfaces on the web
           </TextBig>
         </FadeAndShift>
 
