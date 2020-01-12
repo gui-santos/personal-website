@@ -50,7 +50,11 @@ function IndexPage() {
             href="https://www.linkedin.com/in/guigsantos/?locale=en_US"
             target="_blank"
           >
-            &#8599; LinkedIn
+            LinkedIn&#8599;
+          </Link>
+          {'  '}
+          <Link href="https://github.com/gui-santos" target="_blank">
+            GitHub&#8599;
           </Link>
         </FadeAndShift>
       </Container>
